@@ -4,6 +4,7 @@ package rules
 import (
 	"github.com/nduyhai/finarith/errors"
 	"github.com/nduyhai/finarith/rounding"
+	"github.com/nduyhai/finarith/safedec"
 )
 
 // TransferRule represents a rule for financial transfers.

@@ -19,6 +19,29 @@ A comprehensive financial arithmetic library for Go that provides safe, precise,
 go get github.com/nduyhai/finarith
 ```
 
+## Development
+
+### Build Commands
+
+The project uses a Makefile to manage common development tasks:
+
+```bash
+# Download dependencies
+make deps
+
+# Run tests
+make test
+
+# Run linting
+make lint
+
+# Clean build artifacts
+make clean
+
+# Show all available commands
+make help
+```
+
 ## Usage Examples
 
 ### Integer Overflow-Safe Operations
